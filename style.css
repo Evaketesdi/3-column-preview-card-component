@@ -77,3 +77,17 @@ button:hover {
 .luxury-button {
   color: var(--very-dark-cyan);
 }
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 900px;
+  }
+  .sedan {
+    border-radius: 15px 15px 0 0;
+  }
+  .luxury {
+    border-radius: 0 0 15px 15px;
+  }
+}
